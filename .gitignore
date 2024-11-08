@@ -1,0 +1,21 @@
+# Las carpetas van con / los archivos solitos NO
+# gitIgnore nos sirve para que a la hora de subir el proyecto a GitHub no pese tanto
+# md = archivo de codigo de tipo MD, dar estructura de tipo texto
+
+#Dependencias de Node_modules 
+node_modules/
+
+# Archivos y carpetas de compilación 
+platforms/
+plugins/
+www/
+build/
+
+# Archivos del entorno de desarrollo 
+.idea/
+.vscode/
+.DS_Store
+.env
+
+# Logs y reportes
+*.log 
